@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { HijoComponent } from './hijo.component';
+import { JokeListComponent } from './joke-list.component';
 
-describe('HijoComponent', () => {
-  let component: HijoComponent;
-  let fixture: ComponentFixture<HijoComponent>;
+describe('JokeListComponent', () => {
+  let component: JokeListComponent;
+  let fixture: ComponentFixture<JokeListComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [HijoComponent]
+      imports: [JokeListComponent]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(HijoComponent);
+    fixture = TestBed.createComponent(JokeListComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
