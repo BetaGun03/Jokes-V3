@@ -14,7 +14,7 @@ export class JokeListComponent {
   jokesArray: Array<Joke>
 
   constructor(){
-    this.jokesArray = [new Joke("Texto broma1", "Bromita1"), new Joke("Texto brom2", "Bromita2"), new Joke("Texto broma3", "Bromita3")] 
+    this.jokesArray = [new Joke("Texto broma1", "Bromita1"), new Joke("Texto broma2", "Bromita2"), new Joke("Texto broma3", "Bromita3")] 
   }
 
 
