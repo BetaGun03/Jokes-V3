@@ -1,11 +1,12 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { Joke } from '../joke';
+import { JokeItemComponent } from "../joke-item/joke-item.component";
 
 @Component({
   selector: 'joke-list',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, JokeItemComponent],
   templateUrl: './joke-list.component.html',
   styleUrl: './joke-list.component.css'
 })

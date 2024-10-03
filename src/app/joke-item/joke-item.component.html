@@ -1,1 +1,5 @@
-<p>joke-item works!</p>
+<p [hidden]="joke.hide">{{joke.setup}}</p>
+<p [hidden]="joke.hide">{{joke.punchline}}</p>
+<button (click)="joke.toggle()">Pulsar</button>
+<br>
+<br>

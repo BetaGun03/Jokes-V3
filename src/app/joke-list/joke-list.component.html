@@ -1,7 +1,3 @@
-<div *ngFor="let joke of jokesArray">
-    <p [hidden]="joke.hide">{{joke.setup}}</p>
-    <p [hidden]="joke.hide">{{joke.punchline}}</p>
-    <button (click)="joke.toggle()">Pulsar</button>
-    <br>
-    <br>
-</div>
+<joke-item *ngFor="let jokeDelArray of jokesArray" [joke]="jokeDelArray">
+    
+</joke-item>
