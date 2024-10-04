@@ -1,1 +1,15 @@
-<p>joke-form works!</p>
+<form>
+    <label>Setup:</label>
+    <input type="text" #setup>
+
+    <br>
+    <br>
+
+    <label>Punchline:</label>
+    <input type="text" #punchline>
+
+    <br>
+    <br>
+
+    <button (click)="createJoke(setup.value, punchline.value)">Add joke</button>
+</form>
