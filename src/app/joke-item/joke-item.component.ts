@@ -11,6 +11,6 @@ import { Joke } from '../joke';
 })
 export class JokeItemComponent {
 
-  @Input('joke') joke:Joke
+  @Input('joke') joke:Joke //Podemos poner joke!:Joke si queremos que el sistema no nos avise del error de que la variable no está inicializada. También podemos cambiar el archivo tsconfig.json.
 
 }
